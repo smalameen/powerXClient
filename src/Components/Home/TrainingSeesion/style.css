@@ -1,0 +1,11 @@
+.background-imageOne{
+    background-size: 30rem;
+  width: 30rem;
+  height:30rem;
+  background-repeat: no-repeat; 
+}
+.bottom-left {
+  position: absolute;
+  bottom: 5rem;
+  
+}
