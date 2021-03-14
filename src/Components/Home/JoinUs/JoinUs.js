@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const JoinUs = () => {
   return (
@@ -18,8 +19,9 @@ const JoinUs = () => {
             <br /> non atque reprehenderit id exercitationem?
           </small>
           <br />
-          <br />
-          <Button
+          <br /> 
+          <Link to="/classes">
+          <Button 
             style={{
               height: '4rem',
               width: '12rem',
@@ -33,6 +35,7 @@ const JoinUs = () => {
           > 
             JOIN US
           </Button>
+          </Link>
         </div>
         <br/>
 
